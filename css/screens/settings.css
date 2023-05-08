@@ -1,0 +1,49 @@
+.settings__setting {
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.last-li {
+    border-bottom: none;
+}
+
+.settings__setting i {
+    opacity: 0.8;
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+.settings__setting-column:last-child {
+    opacity: 0.5;
+}
+
+.main-screen-more {
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.settings__setting-newp {
+    position: relative;
+}
+
+.settings__setting-new {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: tomato;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+

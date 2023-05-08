@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat w/ Mr.Krabs - Kokoa Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+
+        <div class="status-bar__column">
+            <span>90%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="fa-solid fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Mr.Krabs</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+            <span><i class="fa-solid fa-bars fa-xl"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, May 8, 2023
+        </div>
+        <div class="message-row">
+            <img src="https://mblogthumb-phinf.pstatic.net/MjAyMDA3MjRfNzkg/MDAxNTk1NTc5NTI5MTUx.y6HU-c7_pnOuBBdPR5vF9uOdHQbllnhIp2C2z5wWfoEg.F55JbQVS71hU-xotrsVOGDGSoXbynyvDfkPIXgOXhe4g.JPEG.jwcanada1990/mr-krabs.jpg?type=w800" />
+            <div class="message-row__content">
+                <span class="message__author">Mr.Krabs</span>
+                <div class="message__info">
+                    <span class="message__bubble">When do you go to work?</span>
+                    <span class="message__time">08:05</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">I'll be there soon!</span>
+                    <span class="message__time">08:05</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row">
+            <img src="https://mblogthumb-phinf.pstatic.net/MjAyMDA3MjRfNzkg/MDAxNTk1NTc5NTI5MTUx.y6HU-c7_pnOuBBdPR5vF9uOdHQbllnhIp2C2z5wWfoEg.F55JbQVS71hU-xotrsVOGDGSoXbynyvDfkPIXgOXhe4g.JPEG.jwcanada1990/mr-krabs.jpg?type=w800" />
+            <div class="message-row__content">
+                <span class="message__author">Mr.Krabs</span>
+                <div class="message__info">
+                    <span class="message__bubble">Don't be long!</span>
+                    <span class="message__time">08:05</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="fa-regular fa-face-smile fa-lg"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <span>Your Screen is too big 🥲</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/41fa83ad58.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>

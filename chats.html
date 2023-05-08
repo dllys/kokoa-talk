@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats - Kokoa Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+
+        <div class="status-bar__column">
+            <span>90%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Chats</h1>
+        <div class="screen-header__icons">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
+            <span>
+                <i class="fa-solid fa-music fa-lg"></i>
+                <p class="screen-header__update"></p>
+            </span>
+            <span>
+                <a href="settings.html">
+                    <i class="fa-solid fa-cog fa-lg"></i>
+                    <p class="screen-header__update"></p>
+                </a>
+            </span>
+        </div>
+    </header>
+
+    <main class="main-screen">
+        <a href="chat.html">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://mblogthumb-phinf.pstatic.net/MjAyMDA3MjRfNzkg/MDAxNTk1NTc5NTI5MTUx.y6HU-c7_pnOuBBdPR5vF9uOdHQbllnhIp2C2z5wWfoEg.F55JbQVS71hU-xotrsVOGDGSoXbynyvDfkPIXgOXhe4g.JPEG.jwcanada1990/mr-krabs.jpg?type=w800" class="user-component__avatar user-component__avatar" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Mr. Krabs</h4>
+                        <h6 class="user-component__subtitle">Don't be long!</h6>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">08:22</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+        </a>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-regular fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="fa-solid fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__update"></span>
+                    <i class="fa-solid fa-ellipsis fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="no-mobile">
+        <span>Your Screen is too big 🥲</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/41fa83ad58.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
