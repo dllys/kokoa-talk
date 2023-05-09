@@ -6,7 +6,7 @@
     width: 100%;
     flex-wrap: wrap;
     justify-content: flex-start;
-
+    color: #fff;
 }
 
 .more-screen .icon-row__icon {
@@ -18,10 +18,12 @@
     margin-top: 20px;
     border-top: var(--main-border);
     padding-top: 30px;
+    color: #fff;
 }
 
 .more-suggestions__title {
     margin-bottom: 30px;
+    color: #000;
 }
 
 .more-suggestions__icons {
