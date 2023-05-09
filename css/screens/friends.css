@@ -36,3 +36,26 @@
 .friends-screen__channel-header i {
     margin-left: 5px;
 }
+
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#splash-screen {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/564x/49/6e/a9/496ea99942eea8bade5516a5f88ee54d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: absolute;
+    top: 0;
+    animation: hideSplashScreen 0.4s ease-in-out forwards;
+    animation-delay: 2s;
+}
