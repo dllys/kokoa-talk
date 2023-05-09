@@ -16,6 +16,23 @@
     position: relative;
 }
 
+@keyframes rotation {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons span:last-child i {
+    transition: 1s;
+}
+
+.screen-header__icons span:last-child:hover i {
+    animation: rotation 2s linear infinite;
+}
+
 .screen-header__update {
     display: block;
     background-color: tomato;
